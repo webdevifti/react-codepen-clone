@@ -51,3 +51,15 @@ body{
     border-top-left-radius: .5rem;
     overflow: hidden;
 }
+
+
+@media(max-width: 425px){
+    .pane{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .code-mirror-wrapper{
+        height: 15vh;
+    }
+}
