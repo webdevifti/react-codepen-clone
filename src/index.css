@@ -55,11 +55,12 @@ body{
 
 @media(max-width: 425px){
     .pane{
-        height: 50vh;
-        display: flex;
         flex-direction: column;
     }
+    .pane iframe{
+        margin-top: 100px;
+    }
     .code-mirror-wrapper{
-        height: 15vh;
+        height: 50px;
     }
 }
